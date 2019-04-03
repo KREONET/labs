@@ -1,0 +1,99 @@
+ROUTER#sh ip bgp
+BGP table version is 94920087, local router ID is aaa.bbb.198.21
+Status codes: s suppressed, d damped, h history, * valid, > best, i - internal, 
+              r RIB-failure, S Stale, m multipath, b backup-path, f RT-Filter, 
+              x best-external, a additional-path, c RIB-compressed, 
+Origin codes: i - IGP, e - EGP, ? - incomplete
+RPKI validation codes: V valid, I invalid, N Not found
+
+     Network          Next Hop            Metric LocPrf Weight Path
+ r   0.0.0.0          ccc.ddd.244.88           0             9318(KR/AS) i
+ r>                   ccc.ddd.244.87           0             9318(KR/AS) i
+ r i                  aaa.bbb.198.23           0    100      9318(KR/AS) i
+ *   1.0.0.0/24       aaa.bbb.200.21                         17579(KR/AS) 7497(CN/AS) 4635(HK/AS) 13335(US/NA) i
+ *                    aaa.bbb.105.114                        17579(KR/AS) 7497(CN/AS) 4635(HK/AS) 13335(US/NA) i
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 9457(KR/AS) 9286(KR/AS) 13335(US/NA) i
+ *                    ccc.ddd.244.88                         9318(KR/AS) 9457(KR/AS) 9286(KR/AS) 13335(US/NA) i
+ *>                   ccc.ddd.244.87                         9318(KR/AS) 9457(KR/AS) 9286(KR/AS) 13335(US/NA) i
+ *   1.0.128.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i 1.0.128.0/19     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ * i 1.0.128.0/18     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ * i 1.0.128.0/17     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *   1.0.129.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.131.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.132.0/22     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.136.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i 1.0.137.0/24     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.138.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i 1.0.139.0/24     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.142.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.143.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.144.0/20     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.160.0/22     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i 1.0.160.0/19     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *   1.0.164.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.165.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.166.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.167.0/24     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.168.0/22     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.172.0/22     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i 1.0.176.0/20     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *   1.0.192.0/21     ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i                  aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ * i 1.0.192.0/19     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ * i 1.0.192.0/18     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) i
+ * i 1.0.200.0/24     aaa.bbb.198.23           0    100      9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *                    ccc.ddd.244.87                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ *>                   ccc.ddd.244.88                         9318(KR/AS) 38040(TH/AS) 23969(TH/AS) ?
+ROUTER#
